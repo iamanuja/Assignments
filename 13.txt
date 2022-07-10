@@ -1,0 +1,32 @@
+1. What advantages do Excel spreadsheets have over CSV spreadsheets?
+
+Excel is a binary file format that holds information for all workbooks, and it is used in all worksheets. On the other hand, CSV stands for Comma Separated Values. CSV is in plain text format information with a series of values in a sheet and is separated by Commas. CSV is a text which is full of information and is less compatible against excel
+Excel is more superior when compared with the CSV file format; thus, CSV consumes less amount of file size when the user is importing data; it is a much faster format compared to excel. CSV does not manipulate data and stores it as-is. Excel also allows the user the add-in feature.
+Text editors cannot edit files saved in Excel format, and also, Excel file can be password protected. CSV format can be edited by text editors, and also CSV file cannot be password protected.
+Excel files can only be read by applications and not on any other systems, application or data platform.
+
+2.What do you pass to csv.reader() and csv.writer() to create reader and writer objects?
+
+In csv.reader() we pass file and dialect.
+In csv.writer() we pass fileobj and dialect.
+
+3. What modes do File objects for reader and writer objects need to be opened in?
+
+For reader object we open file in read mode 'r' and for writer object we open file in write mode 'w'.
+
+4. What method takes a list argument and writes it to a CSV file?
+
+The most common method to write data from a list to CSV file is the writerow() method of writer and DictWriter class
+
+5. What do the keyword arguments delimiter and line terminator do?
+
+The delimiter argument changes the string used to separate cells in a row. The line terminator argument changes the string used to separate rows.
+The delimiter is the character that appears between cells on a row. By default, the delimiter for a CSV file is a comma. The line terminator is the character that comes at the end of a row. By default, the line terminator is a newline.
+
+6. What function takes a string of JSON data and returns a Python data structure?
+dumps() function convert json data into python data structure. 
+
+7. What function takes a Python data structure and returns a string of JSON data?
+loads() function converts python data structure and returns a string of json data.
+
+
